@@ -61,6 +61,7 @@ The **XGB Classifier** model is the best compared to the others on validation se
 * Tune using feature selection and hyperparameters tuning on **XGB Classifier**
 * Use threshold **0.001** to drop columns where its feature importance is less than threshold
 * Optimized hyperparameters:
+
 |Hyperparameter|Value|
 |:-|:-|
 |`eta`|`0.1`|
@@ -71,8 +72,10 @@ The **XGB Classifier** model is the best compared to the others on validation se
 
 ## Final Model Performance
 * Performance evaluation based on testing set
+
 |$F_{1}$ Score|Precision|Recall|Accuracy|
 |:-|:-|:-|:-|
 |0.908993|0.941481|0.878673|0.919232|
+
 * Confusion Matrix
 ![alt text](plot/confusion_matrix.png)
